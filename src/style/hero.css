@@ -1,0 +1,71 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url('../assets//mobileicon.png');
+    min-height: calc(100vh - 65px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+}
+
+.hero__text-block {
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.hero__text-block .house-emoji {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero__text-block h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.search-block.search-block--hero input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.search-block.search-block--hero input:focus {
+    outline: none;
+    border: none;
+}
+
+.hero ::placeholder {
+    color: #fff;
+}
+
+.hero__btn-block {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero__btn-block .btn {
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero__btn-block .btn-success {
+    background: #25DF8F;
+}
+
+.hero__btn-block .btn-secondary {
+    background: #C1C8D7;
+}
+
+.hero__image-block{
+    display: none!important;
+}
